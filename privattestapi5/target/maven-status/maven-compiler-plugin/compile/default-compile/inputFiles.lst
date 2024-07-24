@@ -1,0 +1,15 @@
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\config\RabbitMQConfig.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\controller\DatabaseServiceController.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\dao\CardRepository.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\dao\ClientRepository.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\dto\CardDTO.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\dto\ClientDataDTO.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\entity\Card.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\entity\Client.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\facade\DatabaseInfoSaverFacadeImpl.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\facade\interfaces\DatabaseInfoSaverFacade.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\Privattestapi5Application.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\service\CardServiceImpl.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\service\ClientServiceImpl.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\service\interfaces\CardService.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi5\src\main\java\com\serhiihurin\privattestapi5\service\interfaces\ClientService.java
