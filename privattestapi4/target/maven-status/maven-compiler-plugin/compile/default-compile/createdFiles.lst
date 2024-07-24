@@ -1,0 +1,10 @@
+com\serhiihurin\privattestapi4\dto\CardDTO$CardDTOBuilder.class
+com\serhiihurin\privattestapi4\dto\ClientDataDTO.class
+com\serhiihurin\privattestapi4\dto\ExternalDataDTO$ExternalDataDTOBuilder.class
+com\serhiihurin\privattestapi4\dto\CardDTO.class
+com\serhiihurin\privattestapi4\dto\ExternalDataDTO.class
+com\serhiihurin\privattestapi4\service\interfaces\MessageBrokerService.class
+com\serhiihurin\privattestapi4\config\RabbitMQConfig.class
+com\serhiihurin\privattestapi4\service\MessageBrokerServiceImpl.class
+com\serhiihurin\privattestapi4\dto\ClientDataDTO$ClientDataDTOBuilder.class
+com\serhiihurin\privattestapi4\Privattestapi4Application.class
