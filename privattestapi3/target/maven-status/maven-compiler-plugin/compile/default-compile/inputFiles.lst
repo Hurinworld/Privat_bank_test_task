@@ -1,0 +1,6 @@
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi3\src\main\java\com\serhiihurin\privattestapi3\config\RabbitMQConfig.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi3\src\main\java\com\serhiihurin\privattestapi3\dto\ClientDataDTO.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi3\src\main\java\com\serhiihurin\privattestapi3\dto\ExternalDataDTO.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi3\src\main\java\com\serhiihurin\privattestapi3\Privattestapi3Application.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi3\src\main\java\com\serhiihurin\privattestapi3\service\interfaces\MessageBrokerService.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi3\src\main\java\com\serhiihurin\privattestapi3\service\MessageBrokerServiceImpl.java

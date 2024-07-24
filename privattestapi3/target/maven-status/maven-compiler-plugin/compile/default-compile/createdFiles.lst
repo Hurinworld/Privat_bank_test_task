@@ -1,0 +1,8 @@
+com\serhiihurin\privattestapi3\Privattestapi3Application.class
+com\serhiihurin\privattestapi3\dto\ClientDataDTO.class
+com\serhiihurin\privattestapi3\dto\ExternalDataDTO.class
+com\serhiihurin\privattestapi3\service\MessageBrokerServiceImpl.class
+com\serhiihurin\privattestapi3\config\RabbitMQConfig.class
+com\serhiihurin\privattestapi3\service\interfaces\MessageBrokerService.class
+com\serhiihurin\privattestapi3\dto\ClientDataDTO$ClientDataDTOBuilder.class
+com\serhiihurin\privattestapi3\dto\ExternalDataDTO$ExternalDataDTOBuilder.class
