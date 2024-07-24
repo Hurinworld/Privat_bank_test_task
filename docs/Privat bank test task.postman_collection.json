@@ -1,0 +1,64 @@
+{
+	"info": {
+		"_postman_id": "0dc2f398-e3b3-432a-86e3-a97b3a9caae9",
+		"name": "Privat bank test task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28276762"
+	},
+	"item": [
+		{
+			"name": "Show database info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8084/db-service",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8084",
+					"path": [
+						"db-service"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send message to broker",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Seed",
+						"value": "88005553535",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"clientId\": \"12345\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/send",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"send"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

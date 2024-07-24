@@ -1,0 +1,91 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - backend
+
+  mysqldb:
+    container_name: PrivatBank_MySQL
+    image: mysql
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: privat_bank
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: bestuser
+      MYSQL_PASSWORD: bestuser
+      MYSQL_ROOT_HOST: "%"
+    networks:
+      - backend
+
+  service1:
+    build: ./privattestapi1
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_PORT: 5672
+    networks:
+      - backend
+    depends_on:
+      - rabbitmq
+
+  service2:
+    build: ./privattestapi2
+    ports:
+      - "8081:8081"
+    environment:
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_PORT: 5672
+    networks:
+      - backend
+    depends_on:
+      - rabbitmq
+
+  service3:
+    build: ./privattestapi3
+    ports:
+      - "8082:8082"
+    environment:
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_PORT: 5672
+    networks:
+      - backend
+    depends_on:
+      - rabbitmq
+
+  service4:
+    build: ./privattestapi4
+    ports:
+      - "8083:8083"
+    environment:
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_PORT: 5672
+    networks:
+      - backend
+    depends_on:
+      - rabbitmq
+
+  service5:
+    build: ./privattestapi5
+    ports:
+      - "8084:8084"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/privat_bank?useSSL=false&allowPublicKeyRetrieval=true&serverTimeZone=UTC
+      SPRING_DATASOURCE_USERNAME: bestuser
+      SPRING_DATASOURCE_PASSWORD: bestuser
+      SPRING_RABBITMQ_HOST: rabbitmq
+      SPRING_RABBITMQ_PORT: 5672
+    depends_on:
+      - mysqldb
+      - rabbitmq
+    networks:
+      - backend
+
+networks:
+  backend:
+    driver: bridge
