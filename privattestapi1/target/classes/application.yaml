@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: privattestapi1
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 8080
+custom:
+  valid-seed: 88005553535

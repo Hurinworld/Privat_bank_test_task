@@ -1,0 +1,11 @@
+com\serhiihurin\privattestapi1\service\MessageSenderServiceImpl.class
+com\serhiihurin\privattestapi1\filter\CustomAuthenticationEntryPoint.class
+com\serhiihurin\privattestapi1\service\interfaces\MessageSenderService.class
+com\serhiihurin\privattestapi1\dto\ClientDataDTO.class
+com\serhiihurin\privattestapi1\config\RabbitMQConfig.class
+com\serhiihurin\privattestapi1\filter\SeedAuthenticationFilter.class
+com\serhiihurin\privattestapi1\config\SecurityConfig.class
+com\serhiihurin\privattestapi1\Privattestapi1Application.class
+com\serhiihurin\privattestapi1\controller\ApiController.class
+com\serhiihurin\privattestapi1\dto\ClientDataDTO$ClientDataDTOBuilder.class
+com\serhiihurin\privattestapi1\filter\SeedAuthenticationToken.class

@@ -1,0 +1,9 @@
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi1\src\main\java\com\serhiihurin\privattestapi1\config\RabbitMQConfig.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi1\src\main\java\com\serhiihurin\privattestapi1\config\SecurityConfig.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi1\src\main\java\com\serhiihurin\privattestapi1\controller\ApiController.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi1\src\main\java\com\serhiihurin\privattestapi1\dto\ClientDataDTO.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi1\src\main\java\com\serhiihurin\privattestapi1\filter\CustomAuthenticationEntryPoint.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi1\src\main\java\com\serhiihurin\privattestapi1\filter\SeedAuthenticationFilter.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi1\src\main\java\com\serhiihurin\privattestapi1\Privattestapi1Application.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi1\src\main\java\com\serhiihurin\privattestapi1\service\interfaces\MessageSenderService.java
+D:\Work\ITworks\Java projects\Privat_bank_test_task\privattestapi1\src\main\java\com\serhiihurin\privattestapi1\service\MessageSenderServiceImpl.java
